@@ -10,7 +10,7 @@ export const abilityModifier = (input) => {
 }
 
 export class Character {
-  #stregth
+  #strength
   #dexterity
   #constitution
   #intelligence
@@ -19,7 +19,7 @@ export class Character {
   #hitpoints
 
   constructor() {
-    this.#stregth = this.constructor.rollAbility()
+    this.#strength = this.constructor.rollAbility()
     this.#dexterity = this.constructor.rollAbility()
     this.#constitution = this.constructor.rollAbility()
     this.#intelligence = this.constructor.rollAbility()
@@ -29,11 +29,11 @@ export class Character {
   }
 
   static rollAbility() {
-    return Math.floor((Math.random() * 15) + 3)
+    return Math.floor((Math.random() * 16) + 3)
   }
 
   get strength() {
-    return this.#stregth
+    return this.#strength
   }
 
   get dexterity() {
