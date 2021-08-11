@@ -1,8 +1,3 @@
-//
-// This is only a SKELETON file for the 'Run Length Encoding' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
-
 export const encode = (input) => {
 
   function recursive_encode(input){
@@ -25,7 +20,8 @@ export const decode = (input) => {
   function recursive_decode(input){
     if(input.length <= 0) return ''
 
-    if(isNaN(input[0]) || input[0] === ' ') return `${input[0]}${recursive_decode(input.slice(1))}`
+    if(isNaN(input[0]) || input[0] === ' ')
+      return `${input[0]}${recursive_decode(input.slice(1))}`
 
     let i = 1
     let num = input[0]
