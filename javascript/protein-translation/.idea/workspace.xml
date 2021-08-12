@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16f4ee47-16e8-4be7-94b8-fe7d92ceda81" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-length-encoding.js" beforeDir="false" afterPath="$PROJECT_DIR$/run-length-encoding.js" afterDir="false" />
-    </list>
+    <list default="true" id="0569de53-c43a-4637-8fe8-a6bea606b945" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +13,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1wXf5mfnpnmr3CdAFWjE1nWBmHq" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1wWnrtUhVJY9R9h8Z28pAIVdB8y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../armstrong-numbers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dnd-character" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -34,92 +39,82 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Jest.run-length-encoding.spec.js">
-    <configuration name="run-length decode a string.decode string with lowercase characters" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/run-length-encoding.spec.js" />
-      <test-names>
-        <test-name value="run-length decode a string" />
-        <test-name value="decode string with lowercase characters" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="run-length decode a string.decode string with multiple whitespaces" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/run-length-encoding.spec.js" />
-      <test-names>
-        <test-name value="run-length decode a string" />
-        <test-name value="decode string with multiple whitespaces" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="run-length encode a string" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.ProteinTranslation">
+    <configuration name="ProteinTranslation" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/run-length-encoding.spec.js" />
+      <test-file value="$PROJECT_DIR$/protein-translation.spec.js" />
       <test-names>
-        <test-name value="run-length encode a string" />
+        <test-name value="ProteinTranslation" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="run-length encode and then decode.encode followed by decode gives original string" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="ProteinTranslation.Unexpected strands.Incomplete RNA sequence can translate if valid until a STOP codon" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/run-length-encoding.spec.js" />
+      <test-file value="$PROJECT_DIR$/protein-translation.spec.js" />
       <test-names>
-        <test-name value="run-length encode and then decode" />
-        <test-name value="encode followed by decode gives original string" />
+        <test-name value="ProteinTranslation" />
+        <test-name value="Unexpected strands" />
+        <test-name value="Incomplete RNA sequence can translate if valid until a STOP codon" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="run-length-encoding.spec.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="ProteinTranslation.Unexpected strands.Incomplete RNA sequence can't translate" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/protein-translation.spec.js" />
+      <test-names>
+        <test-name value="ProteinTranslation" />
+        <test-name value="Unexpected strands" />
+        <test-name value="Incomplete RNA sequence can't translate" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="protein-translation.spec.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/run-length-encoding.spec.js" />
+      <test-file value="$PROJECT_DIR$/protein-translation.spec.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="protein-translation.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/protein-translation.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.run-length-encoding.spec.js" />
-        <item itemvalue="Jest.run-length encode a string" />
-        <item itemvalue="Jest.run-length encode and then decode.encode followed by decode gives original string" />
-        <item itemvalue="Jest.run-length decode a string.decode string with lowercase characters" />
-        <item itemvalue="Jest.run-length decode a string.decode string with multiple whitespaces" />
+        <item itemvalue="Jest.ProteinTranslation" />
+        <item itemvalue="Node.js.protein-translation.js" />
+        <item itemvalue="Jest.ProteinTranslation.Unexpected strands.Incomplete RNA sequence can't translate" />
+        <item itemvalue="Jest.protein-translation.spec.js" />
+        <item itemvalue="Jest.ProteinTranslation.Unexpected strands.Incomplete RNA sequence can translate if valid until a STOP codon" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="16f4ee47-16e8-4be7-94b8-fe7d92ceda81" name="Changes" comment="" />
-      <created>1628609672736</created>
+      <changelist id="0569de53-c43a-4637-8fe8-a6bea606b945" name="Changes" comment="" />
+      <created>1628583414342</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1628609672736</updated>
-      <workItem from="1628609674092" duration="35000" />
-      <workItem from="1628611299338" duration="7062000" />
+      <updated>1628583414342</updated>
+      <workItem from="1628583415574" duration="7227000" />
     </task>
     <servers />
   </component>
