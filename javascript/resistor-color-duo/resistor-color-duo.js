@@ -11,16 +11,4 @@ const Encoding = {
   "white": 9
 }
 
-export const decodedValue = (array) => {
-
-  /*Not needed because only two are tested and accepted
-  function recursiveValueAdder(array){
-    if(array.length <= 0) return ''
-    console.log(Encoding[array[0]])
-    return `${Encoding[array.shift()]}${recursiveValueAdder(array)}`
-  }
-  return parseInt(recursiveValueAdder(array))*/
-
-  return parseInt(`${Encoding[array[0]]}${Encoding[array[1]]}`)
-
-};
+export const decodedValue = (array) => Number(`${Encoding[array[0]]}${Encoding[array[1]]}`)
